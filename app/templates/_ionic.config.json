@@ -1,0 +1,13 @@
+{
+  "name": "<%= appName %>",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "inject",
+    "watch"
+  ],
+  "documentRoot": "src",
+  "watchPatterns": [
+    "src/**/*",
+    "src/.tmp/**/*"
+  ]
+}

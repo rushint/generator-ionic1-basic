@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-ionic1-basic' ]; then cd .. && eval "mv $currentfolder generator-ionic1-basic" && cd generator-ionic1-basic; fi
